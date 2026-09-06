@@ -1,0 +1,16 @@
+# Secrets -- never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Runtime / generated state -- account-specific, not source
+logs/
+compliance_state.json
+backtest_compliance_state.json
+backtest_results*.csv
+
+# Claude Code session data
+.claude/
